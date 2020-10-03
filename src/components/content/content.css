@@ -1,0 +1,79 @@
+#myMoves h5{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.iconColor{
+    color:#FF4500;    
+}
+#myMoves .movePlaces{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+#myMoves .movePlaces .from, .arrow, .destination{
+    /* margin-right: 150px; */
+    width: 300px;
+}
+
+#myMoves .movePlaces .from h6 , .destination h6 ,.requestId h6{
+    margin: 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#myMoves .movePlaces .from p, .destination p, .requestId p{
+    font-size: 12px;
+}
+#myMoves .movePlaces .arrow i{
+    border-radius: 50%;
+    padding: 10px;    
+    font-size: 18px;
+    box-shadow: 0px 5px 5px 0px rgba(194, 194, 163,0.55);
+}
+
+
+#myMoves .movePlaces .requestId p{
+    font-weight: bold;
+}
+#myMoves .moveDetail{
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+}
+#myMoves .moveDetail .property_size , .property_items, .distance, .moveDate, .flexible {
+display: flex;
+}
+#myMoves .moveDetail .property_size i , .property_items i, .distance i, .moveDate i, .flexible i{
+    font-size: 20px;
+    padding-right: 10px;
+}
+#myMoves .moveDetail .moveDate .edit{
+    font-size: 14px;
+    line-height: 2;
+}
+#myMoves .moveDetail .property_size p , .property_items p, .distance p, .moveDate p, .flexible p{
+font-size: 14px;
+line-height: 3;
+}
+#myMoves .moveDetail .buttons button{
+    margin-right: 10px;
+    font-size: 14px;
+}
+#myMoves .moveDetail .buttons .detailBtn{
+    color: #FF4500;
+    border-color:#FF4500 ;
+}
+#myMoves .moveDetail .buttons .waitingBtn{
+    color: #fff;
+    background-color: #FF4500;
+}
+#myMoves .disclaimer .fontBold{
+    font-weight: bold;
+}
+#myMoves .disclaimer i{
+    font-size: 12px;
+} 
+#myMoves .disclaimer p{
+    line-height: 2.3;
+    font-size: 14px;
+}

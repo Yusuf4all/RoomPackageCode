@@ -1,0 +1,51 @@
+.iconColor{
+    color:#FF4500;    
+}
+#items{}
+#items .header ,.houseDetail{
+    display: flex;
+    margin-bottom: 10px;
+}
+#items .header h5 ,.houseDetail h5{
+    line-height: 1.5;
+}
+#items .header button , .houseDetail button{
+    margin-left: 10px;
+    color: #ffff;
+    height: 40px;
+    font-size: 14px;
+    background-color: black;
+    
+}
+#items .inventory{
+    display: flex;
+    border-radius: 5px;
+    background-color: #2222;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#items .inventory h5{
+    margin: 0px;
+    font-size: 18px;
+    padding: 10px;
+    color: #FF4500;
+}
+#items .inventory .available{
+    background-color: #FF4500;
+    color: #ffff;
+    padding: 5px;
+    font-size: 10px;
+    border-radius: 50%;
+}
+#items .inventory button{
+    padding: 0px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+#items .inventory i{
+    color:#666;
+    font-size: 18px;
+    margin-right: 10px;
+}

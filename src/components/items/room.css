@@ -1,0 +1,19 @@
+#roomDetails .header h5{
+    margin: 0px;
+}
+#roomDetails .info .desc p{
+    font-size: 12px;
+    margin: 0px;
+}
+#roomDetails .info .desc span{
+    font-weight: bold;
+    font-size: 12px;
+}
+#roomDetails .info .type p{
+    margin: 0px;
+    font-weight: bold;
+    font-size: 14px;
+}
+#roomDetails .info{
+    margin: 15px 0px;
+}
